@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.bd{
+    background-color: rgb(51, 255, 0);
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Responsive Rules */
+
+/* tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .bd{
+        background-color: yellow;
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    .bd{
+        background-color: red;
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+}
+
